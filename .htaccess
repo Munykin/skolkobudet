@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|js|img|niceforms|css|javascript|jscripts|files|robots\.txt|favicon\.png|apple-favicon.png|PIE\.js|PIE\.htc|PIE\.php)
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+Options -Indexes
